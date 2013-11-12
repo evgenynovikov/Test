@@ -3,9 +3,10 @@
   <Button id="Cancel" autoid="buttonExit"/>
   <Edit id="UserName" autoid="textBoxLogin">
     <!---->Edit id="UserName" classname="WindowsForms10.EDIT.app.0.a0f91b_r11_ad1"/>
+ <!----> Edit id="Password" classname="WindowsForms10.EDIT.app.0.a0f91b_r11_ad1"/>
   </Edit>
   <Edit id="Password" autoid ="textBoxPassword">
-    <!----> Edit id="Password" classname="WindowsForms10.EDIT.app.0.a0f91b_r11_ad1"/>
+   
   </Edit>
   <Button id="Login" autoid="buttonLogin"/>
   <Button id="Close" autoid="Close"/>
