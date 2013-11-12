@@ -1,0 +1,20 @@
+Hello
+
+<!DOCTYPE html >
+<html> 
+<head>
+<title> Eugene </title> 
+</head>
+<style>
+	p {
+	    color: #CD0000
+	    }
+</style>
+<body> <h1> <i> <center> <font color="#90EE90"> &lt; &quot; This is a story about Eugene Ptashnik &quot; &gt; </font> </center></i> </h1>
+<h2> Hello </h2>
+<h2> How are you? </h2>
+ <p> <input type="radio" name="radio" value="1" id="sel1"><label for="sel1">1. I'm fine  </label></p>
+ <p> <input type="radio" name="radio" value="2" id="sel2"><label for="sel2"> 2. I'm not fine </label> </p>
+ <p> <input type="radio" name="radio" value="3" id="sel3"><label for="sel3"> 3. Fuck you </label></p>
+</body> 
+</html>
