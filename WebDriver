@@ -1,0 +1,36 @@
+[TestClass]
+    public class MyWebdriverStarterTest
+    {
+        [TestMethod]
+        public void TestDonationsInvalidCreditCard()
+        {
+            RemoteWebDriver Driver = new ChromeDriver();
+            Driver.Navigate().GoToUrl(@"http://en.wikipedia.org/");
+
+            var lnkSupport = Driver.FindElementByCssSelector(@"[title='Support us']");
+            lnkSupport.Click();
+
+            var radioBtn = Driver.FindElementByCssSelector(@"[id='input_amount_5']"); 
+            radioBtn.Click();
+
+            var btnCD = Driver.FindElementByCssSelector(@"[value='Donate by credit/debit card']");
+            btnCD.Click();
+
+            var firstName = Driver.FindElementByName("fname"); 
+            firstName.Click();
+            firstName.SendKeys("Peter");
+
+            var lastName = Driver.FindElementByName("lname");
+            lastName.Click();
+            lastName.SendKeys("Petrov");
+
+            var email = Driver.FindElementByName("emailAdd");
+            email.Click();
+            email.SendKeys("a@aa.aa");
+
+            var country = Driver.FindElementByCssSelector(@"#country[value='Austria']");
+            country.Click();
+
+            
+        }
+    }
